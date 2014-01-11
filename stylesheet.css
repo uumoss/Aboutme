@@ -1,13 +1,13 @@
 body, html {
-	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family:  'Quando', serif;
 	background-image:url('http://i.imgur.com/Eourq.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	height: 100%;
-	width: 100%;
+	background-size: cover;
+	/*height: 100%;
+	width: 100%;*/
 }
 
 /*div img {
@@ -24,8 +24,7 @@ body, html {
 }*/
 
 div.aboutme {
-	background-color: #FFF;
-	opacity: .5;
+	background-color: rgba(255,255,255,.5);	
 	min-height: 60%;
 	float: right;
 	position: relative;
@@ -34,8 +33,31 @@ div.aboutme {
 	padding: 20px;
 	margin-right: 5%;
 	margin-top: 5%;
-	margin-bottom: 20%;
+	margin-bottom: 5%;
 	border-radius: 5px;
+}
+
+div.me {
+	background-color: rgba(255,255,255,.5);	
+	float:	left;
+	position: fixed;
+	border-right: 1px none;
+	width: 50%;
+	padding: 20px;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 5px;
+	clear: both;
+}
+
+.me img {
+	max-width: 40%;
+	max-width: 50%;
+}
+
+.profilepic {
+	text-align: center;
 }
 
 footer {
@@ -43,6 +65,7 @@ footer {
 	display: inline-block;
 	text-align: center;
 	padding-bottom: 10px;
+	color: #fff;
 }
 
 a {
@@ -58,4 +81,5 @@ button {
 	opacity: 1;
 	background-color: aliceblue;
 	width:100%;
+	opacity: none;
 }
