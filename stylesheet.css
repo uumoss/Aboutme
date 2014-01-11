@@ -5,10 +5,12 @@ body, html {
 	font-family:  'Quando', serif;
 	background-image:url('http://i.imgur.com/Eourq.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
 }
 
-div img {
+/*div img {
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -19,12 +21,12 @@ div img {
 	border: 0;
 	outline: 0;
 	vertical-align: baseline;
-}
+}*/
 
 div.aboutme {
 	background-color: #FFF;
 	opacity: .6;
-	min-height: 100%;
+	min-height: 60%;
 	float: right;
 	position: relative;
 	border: 1px solid;
@@ -32,11 +34,15 @@ div.aboutme {
 	padding: 20px;
 	margin-right: 5%;
 	margin-top: 5%;
-	margin-bottom: 10%;
+	margin-bottom: 20%;
 	border-radius: 10px;
 }
 
 footer {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 a {
