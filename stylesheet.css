@@ -1,0 +1,44 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family:  'Quando', serif;
+	background-image:url('http://i.imgur.com/Eourq.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div img {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+div.aboutme {
+	background-color: #FFF;
+	opacity: .6;
+	min-height: 100%;
+	float: right;
+	position: relative;
+	border: 1px solid;
+	width: 25%;
+	padding: 20px;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	border-radius: 10px;
+}
+
+footer {
+}
+
+a {
+	text-decoration: none;
+}
