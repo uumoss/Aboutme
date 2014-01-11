@@ -25,17 +25,17 @@ body, html {
 
 div.aboutme {
 	background-color: #FFF;
-	opacity: .6;
+	opacity: .5;
 	min-height: 60%;
 	float: right;
 	position: relative;
-	border: 1px solid;
+	border: 1px none;
 	width: 25%;
 	padding: 20px;
 	margin-right: 5%;
 	margin-top: 5%;
 	margin-bottom: 20%;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 footer {
@@ -47,4 +47,15 @@ footer {
 
 a {
 	text-decoration: none;
+}
+
+div h1#name {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+button {
+	opacity: 1;
+	background-color: aliceblue;
+	width:100%;
 }
